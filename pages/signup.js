@@ -5,10 +5,10 @@ import { useState } from 'react'
 import Layout from "../components/layout"
 // import SignupStyle from "../public/css/signup.module.css"
 // import useAuth from '../hooks/useAuth';
-import Router from 'next/router'
-import { ToastContainer, toast } from 'react-toastify'
-import 'react-toastify/dist/ReactToastify.css'
-import { SignUpRole } from "../enums/sign-up-role"
+import Router from 'next/router';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { SignUpRole } from "../enums/auth/sign-up-role.enum";
 import { useFormik } from "formik";
 import * as yup from "yup";
 // import "../utils/yup";
